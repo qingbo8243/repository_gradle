@@ -1,0 +1,49 @@
+apply plugin: EnterpriseRepositoryPlugin
+
+class EnterpriseRepositoryPlugin implements Plugin<Gradle> {
+    // 阿里Maven云仓库
+    private static String ENTERPRISE_REPOSITORY_URL = "http://maven.aliyun.com/nexus/content/groups/public/"
+    // nexus私服
+    private static String REPOSITORY_NEXUS_URL = "http://localhost:8081/nexus/content/groups/public/"
+
+    void apply(Gradle gradle) {
+        // ONLY USE ENTERPRISE REPO FOR DEPENDENCIES
+        gradle.allprojects { project ->
+            project.repositories {
+                // Remove all repositories not pointing to the enterprise repository url
+                all { ArtifactRepository repo ->
+                    if (!(repo instanceof MavenArtifactRepository) ||
+                            repo.url.toString() != ENTERPRISE_REPOSITORY_URL) {
+                        project.logger.lifecycle "Repository ${repo.url} removed. Only $ENTERPRISE_REPOSITORY_URL is allowed"
+                        remove repo
+                    }
+                }
+
+                // add the enterprise repository
+                maven {
+                    name "aliyunMaven"
+                    url ENTERPRISE_REPOSITORY_URL
+                }
+                
+                maven {
+                    name "nexusMaven"
+                    url REPOSITORY_NEXUS_URL
+                }                
+                
+                mavenLocal()
+                
+                jcenter()   
+                
+                mavenCentral()
+            }
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+}

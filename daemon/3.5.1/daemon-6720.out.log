@@ -1,0 +1,395 @@
+22:52:02.078 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-XX:MaxPermSize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx1024m, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+22:52:02.078 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+22:52:02.281 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=514b39cf-db95-408d-9c98-bd95679a210f,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\liuqingbo\.gradle\daemon,pid=6720,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+22:52:03.397 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+22:52:03.399 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+22:52:03.413 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.413 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+22:52:03.414 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+22:52:03.414 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Software Loopback Interface 1
+22:52:03.414 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+22:52:03.450 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.452 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.452 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (SSTP)
+22:52:03.452 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+22:52:03.454 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.466 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.466 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (L2TP)
+22:52:03.466 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+22:52:03.468 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.736 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.736 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPTP)
+22:52:03.736 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+22:52:03.738 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.739 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.740 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPPOE)
+22:52:03.740 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+22:52:03.741 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.743 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.743 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)
+22:52:03.743 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+22:52:03.745 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.746 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.747 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)
+22:52:03.747 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+22:52:03.749 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.750 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.750 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)
+22:52:03.751 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface RAS Async Adapter
+22:52:03.752 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.754 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.755 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface RAS Async Adapter
+22:52:03.755 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+22:52:03.756 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IKEv2)
+22:52:03.758 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Virtual WiFi Miniport Adapter
+22:52:03.763 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.764 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.765 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Virtual WiFi Miniport Adapter
+22:52:03.765 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1
+22:52:03.766 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.768 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.768 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.205.1
+22:52:03.768 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f09c:1eae:162a:b5b0%12
+22:52:03.769 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface VMware Virtual Ethernet Adapter for VMnet1
+22:52:03.769 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8
+22:52:03.778 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.780 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.780 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.50.1
+22:52:03.780 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:3c4e:f2ec:323b:9e3f%13
+22:52:03.781 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface VMware Virtual Ethernet Adapter for VMnet8
+22:52:03.781 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter #3
+22:52:03.782 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.784 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+22:52:03.784 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:c0a8:64%14
+22:52:03.785 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter #4
+22:52:03.787 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.791 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+22:52:03.791 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:c0a8:3201%15
+22:52:03.792 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Virtual WiFi Miniport Adapter #2
+22:52:03.878 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.880 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.881 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Virtual WiFi Miniport Adapter #2
+22:52:03.881 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface null
+22:52:03.888 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.889 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.890 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface null
+22:52:03.890 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (2) I219-V
+22:52:03.891 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.911 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.912 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:7c3a:e2b5:16af:8cdc%18
+22:52:03.912 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Intel(R) Ethernet Connection (2) I219-V
+22:52:03.912 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter
+22:52:03.913 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.917 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? false
+22:52:03.917 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:0:5efe:c0a8:cd01%19
+22:52:03.917 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft ISATAP Adapter #2
+22:52:03.918 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.920 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.920 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft ISATAP Adapter #2
+22:52:03.920 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card
+22:52:03.922 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.923 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.923 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.100
+22:52:03.924 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:451a:19:a382:d64f%21
+22:52:03.924 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface 802.11n USB Wireless LAN Card
+22:52:03.924 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (2) I219-V-QoS Packet Scheduler-0000
+22:52:03.925 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.927 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.927 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Intel(R) Ethernet Connection (2) I219-V-QoS Packet Scheduler-0000
+22:52:03.927 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Intel(R) Ethernet Connection (2) I219-V-WFP LightWeight Filter-0000
+22:52:03.929 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.930 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.930 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Intel(R) Ethernet Connection (2) I219-V-WFP LightWeight Filter-0000
+22:52:03.930 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+22:52:03.932 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.933 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.933 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+22:52:03.934 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+22:52:03.936 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.937 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.937 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+22:52:03.937 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+22:52:03.939 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.940 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.940 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+22:52:03.941 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-Virtual WiFi Filter Driver-0000
+22:52:03.942 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.943 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.944 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-Virtual WiFi Filter Driver-0000
+22:52:03.944 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-QoS Packet Scheduler-0000
+22:52:03.945 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.947 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.947 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-QoS Packet Scheduler-0000
+22:52:03.947 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-Native WiFi Filter Driver-0000
+22:52:03.949 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.951 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.951 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-Native WiFi Filter Driver-0000
+22:52:03.951 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface 802.11n USB Wireless LAN Card-WFP LightWeight Filter-0000
+22:52:03.952 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+22:52:03.954 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+22:52:03.954 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface 802.11n USB Wireless LAN Card-WFP LightWeight Filter-0000
+22:52:03.956 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+22:52:03.960 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Oct 22 22:52:03 CST 2017, with address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:03.961 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:03.961 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=514b39cf-db95-408d-9c98-bd95679a210f,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\liuqingbo\.gradle\daemon,pid=6720,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+22:52:03.962 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=514b39cf-db95-408d-9c98-bd95679a210f,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\liuqingbo\.gradle\daemon,pid=6720,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+22:52:03.969 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+22:52:03.971 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:03.979 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:03.980 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+22:52:03.981 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+22:52:03.985 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+22:52:03.986 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+22:52:03.987 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+22:52:03.989 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:51756 to /127.0.0.1:51755.
+22:52:04.045 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Build
+22:52:04.045 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 15: Received non-IO message from client: Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}
+22:52:04.046 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}.
+22:52:04.046 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01} with connection: socket connection from /127.0.0.1:51755 to /127.0.0.1:51756.
+22:52:04.048 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:51755 to /127.0.0.1:51756] after 0.0 minutes of idle
+22:52:04.048 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:04.048 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:04.049 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+22:52:04.050 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:04.052 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:04.054 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+22:52:04.054 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+22:52:04.054 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}. Dispatching build started information...
+22:52:04.055 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+22:52:04.057 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\liuqingbo, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, JAVA_HOME=C:\Program Files\Java\jdk1.7.0_79, ProgramFiles(x86)=C:\Program Files (x86), TEMP=C:\Users\LIUQIN~1\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;D:\app\liuqingbo\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;D:\Program Files (x86)\UltraEdit;D:\gradle-3.5.1\bin;D:\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.7.0_79\bin;D:\Program Files\Git\cmd;D:\Program Files (x86)\SSH Secure Shell, HOMEDRIVE=C:, PROCESSOR_REVISION=9e09, USERDOMAIN=liuqingbo-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel, TMP=C:\Users\LIUQIN~1\AppData\Local\Temp, =::=::\, M2_HOME=D:\apache-maven-3.3.3, CommonProgramFiles=C:\Program Files\Common Files, PROCESSOR_ARCHITECTURE=AMD64, LOGONSERVER=\\LIUQINGBO-PC, OS=Windows_NT, FP_NO_HOST_CHECK=NO, HOMEPATH=\Users\liuqingbo, GRADLE_HOME=D:\gradle-3.5.1, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\liuqingbo\AppData\Local, COMPUTERNAME=LIUQINGBO-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, PUBLIC=C:\Users\Public, USERNAME=liuqingbo, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\Intel\;C:\Program Files\Intel\Wired Networking\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\liuqingbo\AppData\Roaming}
+22:52:04.061 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+22:52:04.061 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6720). The daemon log file: C:\Users\liuqingbo\.gradle\daemon\3.5.1\daemon-6720.out.log
+22:52:04.062 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+22:52:04.062 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 15: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@62214c6f
+22:52:04.063 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 954.7 MB]
+22:52:04.063 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+22:52:04.063 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+22:52:04.066 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+22:52:04.066 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=514b39cf-db95-408d-9c98-bd95679a210f,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\liuqingbo\.gradle\daemon,pid=6720,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+22:52:04.204 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for fileHashes, path C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes\fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@140cbe7c
+22:52:04.209 [DEBUG] [org.gradle.api.internal.changedetection.state.InMemoryCacheDecoratorFactory] Creating in-memory store for cache C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes\fileHashes.bin (max size: 400000)
+22:52:04.211 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file hash cache (C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes)
+22:52:04.212 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file hash cache (C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes).
+22:52:04.213 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file hash cache (C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes).
+22:52:04.214 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] Starting file lock listener thread.
+22:52:04.214 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for jvmRuntimeClassSignatures, path C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes\jvmRuntimeClassSignatures.bin, access org.gradle.cache.internal.DefaultCacheAccess@140cbe7c
+22:52:04.214 [DEBUG] [org.gradle.api.internal.changedetection.state.InMemoryCacheDecoratorFactory] Creating in-memory store for cache C:\Users\liuqingbo\.gradle\caches\3.5.1\fileHashes\jvmRuntimeClassSignatures.bin (max size: 400000)
+22:52:04.346 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for plugin-use-metadata, path C:\Users\liuqingbo\.gradle\caches\3.5.1\plugin-resolution\plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@41f74f0f
+22:52:04.347 [INFO] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for client-status, path C:\Users\liuqingbo\.gradle\caches\3.5.1\plugin-resolution\client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@41f74f0f
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository file:/C:/Users/liuqingbo/.m2/repository/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://repo1.maven.org/maven2/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+Repository https://jcenter.bintray.com/ removed. Only http://localhost:8081/nexus/content/groups/public/ is allowed
+The executable property on ForkOptions has been deprecated and is scheduled to be removed in Gradle 5.0. Please use javaHome instead.
+	at build_4ndj199zaxexp4te5rae9nudu$_run_closure3$_closure5.doCall(E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01\build.gradle:38)
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01\lotfilter-distributor\lotfilter-distributor.gradle' line: 3
+
+* What went wrong:
+A problem occurred evaluating project ':lotfilter-distributor'.
+> lotfilter_distributor_a7rs6d6jaduxvc04juai159jp$_run_closure1$_closure7$_closure8
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+CONFIGURE FAILED
+
+Total time: 13.705 secs
+22:52:13.317 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for task history cache (E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01\.gradle\3.5.1\taskHistory)
+22:52:13.317 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01\.gradle\3.5.1\taskHistory).
+22:52:13.322 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+22:52:13.325 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+22:52:13.325 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.005 secs
+22:52:13.325 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (C:\Users\liuqingbo\.gradle\caches\3.5.1\plugin-resolution) was closed 0 times.
+22:52:13.325 [DEBUG] [org.gradle.workers.internal.WorkerDaemonManager] Stopping 0 worker daemon(s).
+22:52:13.326 [INFO] [org.gradle.workers.internal.WorkerDaemonManager] Stopped 0 worker daemon(s).
+22:52:13.326 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopping 0 deployment handles
+22:52:13.326 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopped deployment handles
+22:52:13.326 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Generated Gradle JARs cache (C:\Users\liuqingbo\.gradle\caches\3.5.1\generated-gradle-jars) was closed 0 times.
+22:52:13.326 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (C:\Users\liuqingbo\.gradle\caches\modules-2)
+22:52:13.327 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (C:\Users\liuqingbo\.gradle\caches\modules-2\metadata-2.23\module-metadata.bin)
+22:52:13.327 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache artifact-at-repository.bin (C:\Users\liuqingbo\.gradle\caches\modules-2\metadata-2.23\artifact-at-repository.bin)
+22:52:13.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (C:\Users\liuqingbo\.gradle\caches\modules-2).
+22:52:13.328 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+22:52:13.335 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+22:52:13.335 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:51755 to /127.0.0.1:51756]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@424a642a with state Busy
+22:52:13.336 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:51755 to /127.0.0.1:51756]
+22:52:13.336 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+22:52:13.336 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:13.336 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:13.337 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+22:52:13.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:13.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:13.341 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Build file 'E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01\lotfilter-distributor\lotfilter-distributor.gradle' line: 3
+A problem occurred evaluating project ':lotfilter-distributor'.]
+22:52:13.341 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Failure
+22:52:13.348 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+22:52:13.361 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=30e110d9-b851-4685-80c2-e49b96ab17f2.1, currentDir=E:\v1\code\caimi_project\cp_lottery\02code\branches\branch_01}
+22:52:13.387 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+22:52:13.387 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 15: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@5e1d817b
+22:52:13.388 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+22:52:13.388 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+22:52:13.388 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 15: Received end-of-input from client.
+22:52:13.388 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+22:52:13.388 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+22:52:13.389 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+22:52:13.987 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+22:52:13.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:13.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:13.989 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:13.989 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:13.990 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:13.990 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:15.907 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 8454565888, Free: 2651619328}
+22:52:15.908 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 8454565888, Free: 2651619328}
+22:52:15.908 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 954728448, Committed: 236453888}
+22:52:20.907 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 8454565888, Free: 2689474560}
+22:52:20.908 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 8454565888, Free: 2689474560}
+22:52:20.908 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 954728448, Committed: 236453888}
+22:52:23.988 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+22:52:23.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:23.989 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:23.989 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:23.990 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:23.990 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:23.990 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:23.991 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:23.991 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:23.992 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:25.908 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 8454565888, Free: 2681278464}
+22:52:25.908 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 8454565888, Free: 2681278464}
+22:52:25.908 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 954728448, Committed: 236453888}
+22:52:30.908 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 8454565888, Free: 2674581504}
+22:52:30.908 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 8454565888, Free: 2674581504}
+22:52:30.908 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 954728448, Committed: 236453888}
+22:52:33.988 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:33.988 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:35.923 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 8454565888, Free: 2732347392}
+22:52:35.923 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 8454565888, Free: 2732347392}
+22:52:35.923 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 954728448, Committed: 236453888}
+22:52:36.562 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:51766 to /127.0.0.1:51755.
+22:52:36.562 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received class org.gradle.launcher.daemon.protocol.StopWhenIdle
+22:52:36.562 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 25: Received non-IO message from client: StopWhenIdle[id=2efe9fda-8b6a-4448-808b-b987f547d706.1]
+22:52:36.562 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: StopWhenIdle[id=2efe9fda-8b6a-4448-808b-b987f547d706.1].
+22:52:36.562 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: StopWhenIdle[id=2efe9fda-8b6a-4448-808b-b987f547d706.1] with connection: socket connection from /127.0.0.1:51755 to /127.0.0.1:51766.
+22:52:36.562 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: stop command received
+22:52:36.562 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1508683956562
+22:52:36.562 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+22:52:36.562 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:36.562 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:36.578 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build stop command received
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to stop command received. The daemon is running a build: false
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+22:52:36.578 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: StopWhenIdle[id=2efe9fda-8b6a-4448-808b-b987f547d706.1]
+22:52:36.578 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+22:52:36.578 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received class org.gradle.launcher.daemon.protocol.Finished
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 25: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@5a2fcc36
+22:52:36.578 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@5a2fcc36
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+22:52:36.578 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 25: received null
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 25: Received end-of-input from client.
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+22:52:36.578 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [2ea8f7f6-1070-42ab-8226-fb2f43b74cb9 port:51755, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+22:52:36.578 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+22:52:36.578 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+22:52:36.578 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
